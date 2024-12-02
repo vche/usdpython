@@ -1,5 +1,7 @@
 # USD Python Tools
 
+**vche fork: This fork adds pixi virtual environment and the fix from @MagicalTux to support usd 23. This fork is required to use my freecad macro to convert to usdz.**
+
 This package installs to /Applications/usdpython and contains
 - `usdzconvert`, a Python-based tool to convert from various file formats to usdz
 - `usdARKitChecker`, a Python-based tool for usdz validation

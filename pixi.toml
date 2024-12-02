@@ -1,0 +1,18 @@
+[project]
+authors = ["Vivien Chene <viv.chene@gmail.com>"]
+channels = ["conda-forge"]
+description = "Add a short description here"
+name = "usdpython"
+platforms = ["osx-64", 'linux-64']
+version = "0.1.0"
+
+[tasks]
+convertobj = "usdzconvert/usdzconvert -useObjMtl"
+
+[dependencies]
+python = ">=3.7.0,<=3.10"
+
+[pypi-dependencies]
+usd-core = "*"
+
+
